@@ -1,5 +1,4 @@
 Name: Jad Hajaig
-Student #: 101217761
 
 
 README
