@@ -1,0 +1,195 @@
+
+
+
+
+
+ <!-- <!DOCTYPE html>
+ <html lang="en">
+ 
+ <head>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1">
+   <title>iTunes Playlist</title>
+   <link rel="stylesheet" href="styles/styles.css">
+   <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@400;500;700&display=swap" rel="stylesheet">
+ 
+   <style>
+     .container-custom {
+       display: flex;
+       flex-direction: column;
+       align-items: center;
+     }
+ 
+     .half-container {
+       display: flex;
+       width: 100%;
+     }
+ 
+     .playlist-wrapper-custom,
+     .search-results-wrapper-custom {
+       flex: 1;
+       margin: 0 10px; /* Adjust as needed */
+     }
+ 
+     .search-box-custom {
+       text-align: center;
+       margin: 20px 0;
+     }
+ 
+     .search-input-custom {
+       display: inline-block;
+       margin-bottom: 10px;
+     }
+ 
+     .search-button-custom {
+       display: inline-block;
+       margin-top: 10px;
+     }
+   </style>
+ </head>
+ 
+ <body>
+   <div class="container-custom">
+     <div class="search-box-custom">
+       <label for="customTitleField" class="search-input-custom">Enter Song Title:</label>
+       <input type="text" id="customTitleField" class="search-input-custom" />
+       <button id="customSubmitButton" class="search-button-custom">Submit</button>
+     </div>
+ 
+     <div class="half-container">
+       <div class="playlist-wrapper-custom">
+         <h2>Playlist</h2>
+         <table id="playlist_table_custom">
+           <thead>
+             <tr>
+               <th>Action</th>
+               <th>Title</th>
+               <th>Artist</th>
+               <th>Artwork</th>
+             </tr>
+           </thead>
+           <tbody id="customPlaylistBody"></tbody>
+         </table>
+       </div>
+ 
+       <div class="search-results-wrapper-custom">
+         <h2 id="customSearchResultsTitle">Songs Matching:</h2>
+         <table id="search_results_table_custom">
+           <thead>
+             <tr>
+               <th>Action</th>
+               <th>Title</th>
+               <th>Artist</th>
+               <th>Artwork</th>
+             </tr>
+           </thead>
+           <tbody id="customSearchResultsBody"></tbody>
+         </table>
+       </div>
+     </div>
+   </div>
+ 
+   <script src="js/script.js"></script>
+ </body>
+ 
+ </html> -->
+
+
+
+
+  <!DOCTYPE html>
+  <html lang="en">
+
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>iTunes Playlist</title>
+    <link rel="stylesheet" href="styles/styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@400;500;700&display=swap" rel="stylesheet">
+
+    <style>
+      .container-custom {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+      }
+
+      .half-container {
+        display: flex;
+        width: 100%;
+      }
+
+      .playlist-wrapper-custom {
+        width: 50%;
+        flex: 0.75;
+        margin: 0 auto;
+        padding: 0 10px;
+      }
+      .search-results-wrapper-custom {
+        width: 50%;
+        flex: 1;
+        margin: 0 auto; 
+      }
+
+      .search-box-custom {
+        text-align: center;
+        margin: 20px 0;
+      }
+
+      .search-input-custom {
+        display: inline-block;
+        margin-bottom: 10px;
+      }
+
+      .search-button-custom {
+        display: inline-block;
+        margin-top: 10px;
+      }
+    </style>
+  </head>
+
+  <body>
+    <div class="container-custom">
+      <div class="half-container">
+        <div class="playlist-wrapper-custom">
+          <h2>Playlist</h2>
+          <table id="playlist_table_custom">
+            <thead>
+              <tr>
+                <th>Action</th>
+                <th>Title</th>
+                <th>Artist</th>
+                <th>Artwork</th>
+              </tr>
+            </thead>
+            <tbody id="customPlaylistBody"></tbody>
+          </table>
+        </div>
+      </div>
+      
+      <div class="search-box-custom">
+        <label for="customTitleField" class="search-input-custom">Enter Song Title:</label>
+        <input type="text" id="customTitleField" class="search-input-custom" />
+        <button id="customSubmitButton" class="search-button-custom">Submit</button>
+      </div>
+
+      <div class="search-results-wrapper-custom">
+        <h2 id="customSearchResultsTitle">Songs Matching:</h2>
+        <table id="search_results_table_custom">
+          <thead>
+            <tr>
+              <th>Action</th>
+              <th>Title</th>
+              <th>Artist</th>
+              <th>Artwork</th>
+            </tr>
+          </thead>
+          <tbody id="customSearchResultsBody"></tbody>
+        </table>
+      </div>
+    </div>
+
+    <script src="js/script.js"></script>
+  </body>
+
+  </html>

@@ -1,0 +1,67 @@
+body {
+  align-items: center;
+  background-color: rgb(4, 4, 79);
+  color: gold;
+  font-family: 'Quicksand', sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+button {
+  background-color: transparent;
+  border: 2px solid gold;
+  color: gold;
+  cursor: pointer;
+  display: inline-block;
+  font-size: 14px;
+  font-weight: bold;
+  margin: 4px 2px;
+  padding: 6px 10px;
+  text-align: center;
+  text-decoration: none;
+  transition-duration: 0.4s;
+}
+
+button:hover {
+  background-color: darkblue;
+}
+
+.container {
+  margin: 0 auto;
+  max-width: 1250px;
+  padding: 20px;
+}
+
+h2 {
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+table {
+  border: 2px solid gold;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+td, th {
+  border: 1.5px solid gold;
+  font-weight: bold;
+  padding: 8px;
+  text-align: left;
+}
+
+thead {
+  background-color: transparent;
+}
+
+th {
+  background-color: transparent;
+  color: gold;
+  padding-bottom: 12px;
+  padding-top: 12px;
+  text-align: left;
+}
+
+tr:nth-child(even) {
+  background-color: transparent;
+}
